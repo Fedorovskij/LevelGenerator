@@ -1,0 +1,11 @@
+Library/
+Temp/
+*.sln
+/Assets/Plugins/Editor/JetBrains/RiderAssetPostprocessor.cs
+/Assets/Plugins/Editor/JetBrains/RiderPlugin.cs
+tt.CSharp.Editor.csproj
+tt.CSharp.csproj
+Assets/Levels/all.xml
+Assets/Levels/all.xml.meta
+
+Assets/DOTween/DOTweenPro/DOTweenPro.sln.meta

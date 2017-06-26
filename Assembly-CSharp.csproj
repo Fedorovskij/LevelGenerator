@@ -1,0 +1,243 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>10.0.20506</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <RootNamespace></RootNamespace>
+    <ProjectGuid>{46BC040B-2CF7-A057-8E30-7C286719349B}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <AssemblyName>Assembly-CSharp</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <BaseDirectory>Assets</BaseDirectory>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>Temp\bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE;UNITY_5_3_OR_NEWER;UNITY_5_4_OR_NEWER;UNITY_5_5_OR_NEWER;UNITY_5_5_1;UNITY_5_5;UNITY_5;UNITY_64;ENABLE_AUDIO;ENABLE_CACHING;ENABLE_CLOTH;ENABLE_DUCK_TYPING;ENABLE_GENERICS;ENABLE_MICROPHONE;ENABLE_MULTIPLE_DISPLAYS;ENABLE_PHYSICS;ENABLE_SPRITERENDERER_FLIPPING;ENABLE_SPRITES;ENABLE_TERRAIN;ENABLE_RAKNET;ENABLE_UNET;ENABLE_LZMA;ENABLE_UNITYEVENTS;ENABLE_WEBCAM;ENABLE_WWW;ENABLE_CLOUD_SERVICES_COLLAB;ENABLE_CLOUD_SERVICES_ADS;ENABLE_CLOUD_HUB;ENABLE_CLOUD_PROJECT_ID;ENABLE_CLOUD_SERVICES_UNET;ENABLE_CLOUD_SERVICES_BUILD;ENABLE_CLOUD_LICENSE;ENABLE_EDITOR_METRICS;ENABLE_EDITOR_METRICS_CACHING;INCLUDE_DYNAMIC_GI;INCLUDE_GI;PLATFORM_SUPPORTS_MONO;RENDER_SOFTWARE_CURSOR;INCLUDE_PUBNUB;ENABLE_PLAYMODE_TESTS_RUNNER;ENABLE_SCRIPTING_NEW_CSHARP_COMPILER;UNITY_STANDALONE_WIN;UNITY_STANDALONE;ENABLE_SUBSTANCE;ENABLE_RUNTIME_GI;ENABLE_MOVIES;ENABLE_NETWORK;ENABLE_CRUNCH_TEXTURE_COMPRESSION;ENABLE_UNITYWEBREQUEST;ENABLE_CLOUD_SERVICES;ENABLE_CLOUD_SERVICES_ANALYTICS;ENABLE_CLOUD_SERVICES_PURCHASING;ENABLE_CLOUD_SERVICES_CRASH_REPORTING;ENABLE_EVENT_QUEUE;ENABLE_CLUSTERINPUT;ENABLE_VIDEO;ENABLE_VR;ENABLE_WEBSOCKET_HOST;ENABLE_MONO;DEVELOPMENT_BUILD;ENABLE_PROFILER;UNITY_ASSERTIONS;UNITY_EDITOR;UNITY_EDITOR_64;UNITY_EDITOR_WIN;UNITY_TEAM_LICENSE;SOOMLA_FACEBOOK</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>Temp\bin\Release\</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.XML" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="UnityEngine">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor">
+      <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\DOTween\DOTween\Examples\Basics.cs" />
+     <Compile Include="Assets\DOTween\DOTween\Examples\Sequences.cs" />
+     <Compile Include="Assets\DOTween\DOTweenPro\DOTweenAnimation.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\FieldScripts\Constants.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\FieldScripts\FieldController.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\FieldScripts\ViewFieldCell.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\Level.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\IPanel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\MenuCreator.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewCellTarget.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditCountColor.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditHeight.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditMoveCount.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditMovesOrTime.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditPortion.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditTarget.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditTimeCount.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewEditWidth.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\MenuCreator\ViewSugarDrop.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\Strategy\ControlButtons.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\Strategy\ITriggerable.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewBlockPanel\ViewBlockPanel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewBlockPanel\ViewButtonBranch.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewBlockPanel\ViewButtonSimpleBlock.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewBlockPanel\ViewButtonWeed.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewChipPanel\ViewButtonColorBase.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewChipPanel\ViewChipPanel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewEditScoreStars.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonGenerator.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonGravity.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonJelly.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonSlot.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonSugarDrop.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewButtonTeleports.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSlotPanel\ViewSlotPanel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewSwitchPanel\ViewSwitchPanel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewTargetColorPanel\ViewColorInput.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewTargetColorPanel\ViewTargetColorInFieldInGame.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewWallPanel\ViewButtonWall.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\MenuScripts\ViewWallPanel\ViewWallBase.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ShowFieldInEditor.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ViewCellInLevelList.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ViewCloseCreateLevel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ViewListOfLevelsController.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ViewWindowCreateLevel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\ViewWindowCreateOrEditLevel\ViewWindowCreateOrEditLevel.cs" />
+     <Compile Include="Assets\Scripts\LevelEditor\Scripts\XML Serializator\XmlSerializator.cs" />
+     <Compile Include="Assets\Scripts\Pool\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Pool\IPoolObject.cs" />
+     <Compile Include="Assets\Scripts\Pool\LoadWindowManager.cs" />
+     <Compile Include="Assets\Scripts\Pool\PoolManager.cs" />
+     <Compile Include="Assets\Scripts\Pool\UnityPoolManager.cs" />
+     <Compile Include="Assets\Scripts\Pool\UnityPoolObject.cs" />
+     <Compile Include="Assets\Scripts\Pool\WindowViewBase.cs" />
+     <None Include="Assets\StreamingAssets\Levels\38.xml" />
+     <None Include="Assets\DOTween\DOTweenPro\readme.txt" />
+     <None Include="Assets\StreamingAssets\Levels\5.xml" />
+     <None Include="Assets\StreamingAssets\Levels\4.xml" />
+     <None Include="Assets\StreamingAssets\Levels\5555.xml" />
+     <None Include="Assets\StreamingAssets\Levels\47.xml" />
+     <None Include="Assets\StreamingAssets\Levels\4555.xml" />
+     <None Include="Assets\StreamingAssets\Levels\74.xml" />
+     <None Include="Assets\StreamingAssets\Levels\25.xml" />
+     <None Include="Assets\DOTween\DemiLib\Core\DemiLib.xml" />
+     <None Include="Assets\StreamingAssets\Levels\8.xml" />
+     <None Include="Assets\StreamingAssets\Levels\33.xml" />
+     <None Include="Assets\StreamingAssets\Levels\40.xml" />
+     <None Include="Assets\StreamingAssets\Levels\44.xml" />
+     <None Include="Assets\DOTween\DOTween\DOTween50.xml" />
+     <None Include="Assets\StreamingAssets\Levels\3.xml" />
+     <None Include="Assets\StreamingAssets\Levels\62.xml" />
+     <None Include="Assets\StreamingAssets\Levels\9.xml" />
+     <None Include="Assets\StreamingAssets\Levels\30.xml" />
+     <None Include="Assets\StreamingAssets\Levels\27.xml" />
+     <None Include="Assets\StreamingAssets\Levels\39.xml" />
+     <None Include="Assets\StreamingAssets\Levels\26.xml" />
+     <None Include="Assets\StreamingAssets\Levels\45.xml" />
+     <None Include="Assets\StreamingAssets\Levels\72.xml" />
+     <None Include="Assets\StreamingAssets\Levels\11.xml" />
+     <None Include="Assets\StreamingAssets\Levels\64.xml" />
+     <None Include="Assets\StreamingAssets\Levels\50.xml" />
+     <None Include="Assets\StreamingAssets\Levels\54.xml" />
+     <None Include="Assets\StreamingAssets\Levels\7.xml" />
+     <None Include="Assets\StreamingAssets\Levels\41.xml" />
+     <None Include="Assets\StreamingAssets\Levels\13.xml" />
+     <None Include="Assets\StreamingAssets\Levels\12.xml" />
+     <None Include="Assets\StreamingAssets\Levels\56.xml" />
+     <None Include="Assets\DOTween\DOTween\DOTween46.xml" />
+     <None Include="Assets\StreamingAssets\Levels\17.xml" />
+     <None Include="Assets\StreamingAssets\Levels\36.xml" />
+     <None Include="Assets\StreamingAssets\Levels\18.xml" />
+     <None Include="Assets\StreamingAssets\Levels\35.xml" />
+     <None Include="Assets\StreamingAssets\Levels\1.xml" />
+     <None Include="Assets\StreamingAssets\Levels\16.xml" />
+     <None Include="Assets\StreamingAssets\Levels\61.xml" />
+     <None Include="Assets\StreamingAssets\Levels\53.xml" />
+     <None Include="Assets\StreamingAssets\Levels\31.xml" />
+     <None Include="Assets\StreamingAssets\Levels\24.xml" />
+     <None Include="Assets\StreamingAssets\Levels\65.xml" />
+     <None Include="Assets\StreamingAssets\Levels\58.xml" />
+     <None Include="Assets\StreamingAssets\Levels\71.xml" />
+     <None Include="Assets\StreamingAssets\Levels\70.xml" />
+     <None Include="Assets\StreamingAssets\Levels\37.xml" />
+     <None Include="Assets\StreamingAssets\Levels\2.xml" />
+     <None Include="Assets\StreamingAssets\Levels\49.xml" />
+     <None Include="Assets\DOTween\DOTween\readme.txt" />
+     <None Include="Assets\StreamingAssets\Levels\73.xml" />
+     <None Include="Assets\StreamingAssets\Levels\63.xml" />
+     <None Include="Assets\StreamingAssets\Levels\10.xml" />
+     <None Include="Assets\StreamingAssets\Levels\19.xml" />
+     <None Include="Assets\DOTween\DOTween\DOTween43.xml" />
+     <None Include="Assets\StreamingAssets\Levels\52.xml" />
+     <None Include="Assets\StreamingAssets\Levels\34.xml" />
+     <None Include="Assets\StreamingAssets\Levels\48.xml" />
+     <None Include="Assets\StreamingAssets\Levels\59.xml" />
+     <None Include="Assets\StreamingAssets\Levels\6.xml" />
+     <None Include="Assets\StreamingAssets\Levels\23.xml" />
+     <None Include="Assets\StreamingAssets\Levels\69.xml" />
+     <None Include="Assets\StreamingAssets\Levels\21.xml" />
+     <None Include="Assets\StreamingAssets\Levels\28.xml" />
+     <None Include="Assets\StreamingAssets\Levels\67.xml" />
+     <None Include="Assets\StreamingAssets\Levels\20.xml" />
+     <None Include="Assets\StreamingAssets\Levels\46.xml" />
+     <None Include="Assets\StreamingAssets\Levels\14.xml" />
+     <None Include="Assets\StreamingAssets\Levels\66.xml" />
+     <None Include="Assets\StreamingAssets\Levels\15.xml" />
+     <None Include="Assets\StreamingAssets\Levels\42.xml" />
+     <None Include="Assets\StreamingAssets\Levels\68.xml" />
+     <None Include="Assets\StreamingAssets\Levels\22.xml" />
+     <None Include="Assets\DOTween\DemiLib\Core\Editor\DemiEditor.xml" />
+     <None Include="Assets\StreamingAssets\Levels\32.xml" />
+     <None Include="Assets\StreamingAssets\Levels\55.xml" />
+     <None Include="Assets\StreamingAssets\Levels\29.xml" />
+     <None Include="Assets\StreamingAssets\Levels\999999.xml" />
+     <None Include="Assets\DOTween\readme_DOTweenPro.txt" />
+     <None Include="Assets\StreamingAssets\Levels\60.xml" />
+     <None Include="Assets\StreamingAssets\Levels\51.xml" />
+     <None Include="Assets\StreamingAssets\Levels\43.xml" />
+     <None Include="Assets\StreamingAssets\Levels\57.xml" />
+ <Reference Include="UnityEngine.UI">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Networking">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/Networking/UnityEngine.Networking.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.PlaymodeTestsRunner">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/PlaymodeTestsRunner/UnityEngine.PlaymodeTestsRunner.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.Analytics">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityAnalytics/UnityEngine.Analytics.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.HoloLens">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityHoloLens/RuntimeEditor/UnityEngine.HoloLens.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEngine.VR">
+ <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
+ </Reference>
+ <Reference Include="DemiLib">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DemiLib/Core/DemiLib.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DOTween/DOTween.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween43">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DOTween/DOTween43.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween46">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DOTween/DOTween46.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTween50">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DOTween/DOTween50.dll</HintPath>
+ </Reference>
+ <Reference Include="DOTweenPro">
+ <HintPath>D:/Работа/LevelGenerator/Assets/DOTween/DOTweenPro/DOTweenPro.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/AppleTVSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Xcode">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions.Common">
+ <HintPath>C:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Common.dll</HintPath>
+ </Reference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

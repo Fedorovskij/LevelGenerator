@@ -1,0 +1,17 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\UI\FieldView\ViewBoosterPanel.cs">
+    <Files>
+      <File FileName="Assets\Scripts\UI\WindowView\ViewNoMoreMovesOrTimeWindow.cs" Line="29" Column="3" />
+      <File FileName="Assets\Scripts\UI\WindowView\ViewTimeMask.cs" Line="15" Column="26" />
+      <File FileName="Assets\Scripts\Assistants\SessionAssistent\SessionAssistant.cs" Line="343" Column="159" />
+      <File FileName="Assets\Scripts\Profile\ProfilePlayer.cs" Line="66" Column="5" />
+      <File FileName="Assets\Scripts\Boosters\ViewBoosterButton.cs" Line="42" Column="2" />
+      <File FileName="Assets\Scripts\UI\FieldView\ViewBoosterPanel.cs" Line="17" Column="45" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
